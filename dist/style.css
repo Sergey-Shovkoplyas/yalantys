@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.app {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.user-list-wrap {
+  max-height: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  overflow-y: scroll;
+  background-color: gray;
+}
+
+.month--gray {
+  background-color: gray;
+}
+
+.month--blue {
+  background-color: blue;
+}
+
+.month--green {
+  background-color: green;
+}
+
+.month--red {
+  background-color: red;
+}
+
+.month-list__item {
+  margin-bottom: 40px;
+}
+
+.month {
+  color: #fff;
+  width: 300px;
+  padding: 10px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.month__title + ol {
+  position: absolute;
+  right: -250px;
+  top: 0;
+  z-index: 10;
+  width: 200px;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: inherit;
+}
